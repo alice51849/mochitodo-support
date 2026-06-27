@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mochi To-Do — Support</title>
+<style>
+  :root { --ink:#4E2E26; --soft:#9A8378; --accent:#0E9D64; --card:#FFFDF9; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink); line-height:1.6;
+    background:linear-gradient(160deg,#FF9E7B 0%,#FFC79C 45%,#FFE9C9 100%);
+    background-attachment:fixed; padding:0 20px 80px;
+  }
+  .wrap { max-width:680px; margin:0 auto; }
+  header { text-align:center; padding:64px 0 28px; }
+  header img { width:104px; height:104px; border-radius:24px;
+    box-shadow:0 12px 30px rgba(120,60,40,.28); }
+  h1 { font-size:2rem; margin:18px 0 4px; }
+  .tag { color:var(--ink); opacity:.75; font-size:1.05rem; margin:0; }
+  .card { background:var(--card); border-radius:22px; padding:26px 28px; margin:18px 0;
+    box-shadow:0 10px 28px rgba(120,60,40,.12); }
+  h2 { font-size:1.2rem; margin:4px 0 12px; }
+  details { border-top:1px solid #F0E5DA; padding:12px 0; }
+  details:first-of-type { border-top:none; }
+  summary { font-weight:600; cursor:pointer; list-style:none; }
+  summary::-webkit-details-marker { display:none; }
+  summary::before { content:"＋"; color:var(--accent); font-weight:700; margin-right:10px; }
+  details[open] summary::before { content:"－"; }
+  details p { margin:10px 0 2px; color:#5d473f; }
+  a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .contact { text-align:center; font-size:1.05rem; }
+  footer { text-align:center; color:var(--ink); opacity:.7; font-size:.9rem; margin-top:26px; }
+  ul { padding-left:1.1rem; } li { margin:4px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="Mochi To-Do icon" />
+    <h1>Mochi To-Do</h1>
+    <p class="tag">The cutest, comfiest way to get things done. 🍡</p>
+  </header>
+
+  <div class="card">
+    <h2>About</h2>
+    <p>Mochi To-Do is a cute checklist app: tap to check things off, dress up your lists
+       with 100 beautiful skins, and tick tasks right from interactive Home &amp; Lock Screen
+       widgets. Reminders, multiple lists, 50 languages, and a one-time unlock — no
+       subscriptions, no account, no tracking.</p>
+  </div>
+
+  <div class="card">
+    <h2>Frequently asked</h2>
+
+    <details open>
+      <summary>How do I add the widget?</summary>
+      <p>Touch and hold an empty area of your Home Screen until the apps jiggle, tap the
+         <b>+</b> in the corner, search for <b>Mochi To-Do</b>, choose a size and tap
+         <b>Add Widget</b>. For the Lock Screen, touch and hold the Lock Screen, tap
+         <b>Customize</b>, then add a Mochi widget. You can also open the app and tap the
+         widget guide for an illustrated walkthrough.</p>
+    </details>
+
+    <details>
+      <summary>Can I check items off without opening the app?</summary>
+      <p>Yes. On iOS 17 and later the widget is interactive — tap a circle in the widget to
+         complete a task. It updates instantly and matches your current skin.</p>
+    </details>
+
+    <details>
+      <summary>How do reminders work?</summary>
+      <p>Open an item, set a date and time, and optionally choose a daily, weekly or monthly
+         repeat. Mochi will send a friendly notification. Make sure notifications are enabled
+         in <b>Settings → Mochi To-Do → Notifications</b>.</p>
+    </details>
+
+    <details>
+      <summary>What does the one-time unlock include?</summary>
+      <p>A single purchase unlocks every premium skin forever — no subscription. Already
+         purchased? Open <b>Settings</b> in the app and tap <b>Restore Purchases</b>.</p>
+    </details>
+
+    <details>
+      <summary>How do I change the language?</summary>
+      <p>Mochi follows your system language automatically. To pick another, open
+         <b>Settings → Language</b> in the app and choose from 50 languages (the first option
+         follows your system).</p>
+    </details>
+
+    <details>
+      <summary>Where is my data stored?</summary>
+      <p>Everything stays on your device. Mochi has no account and collects no personal data.
+         See our <a href="privacy.html">Privacy Policy</a>.</p>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p class="contact">Need help or have an idea? Email
+       <a href="mailto:alice51849@hotmail.com">alice51849@hotmail.com</a>.<br />
+       We typically reply within 1–2 business days.</p>
+  </div>
+
+  <footer>© 2026 Mochi To-Do · <a href="privacy.html">Privacy Policy</a></footer>
+</div>
+</body>
+</html>
