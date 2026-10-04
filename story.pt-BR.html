@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre o Mochi: como o app de lista de tarefas fofa é feito e o que ele promete</title>
+<meta name="description" content="Quem faz o Mochi, como o app é projetado e construído, como funcionam a versão gratuita e o desbloqueio único, o que ele guarda e exatamente onde a IA entra.">
+<link rel="canonical" href="https://open.cait518.cc/mochitodo-support/story.pt-BR.html">
+<link rel="alternate" hreflang="en-US" href="https://open.cait518.cc/mochitodo-support/story.html">
+<link rel="alternate" hreflang="pt-BR" href="https://open.cait518.cc/mochitodo-support/story.pt-BR.html">
+<link rel="alternate" hreflang="ko" href="https://open.cait518.cc/mochitodo-support/story.ko.html">
+<link rel="alternate" hreflang="ja" href="https://open.cait518.cc/mochitodo-support/story.ja.html">
+<link rel="alternate" hreflang="x-default" href="https://open.cait518.cc/mochitodo-support/story.html">
+<meta property="og:title" content="Sobre o Mochi: como o app de lista de tarefas fofa é feito e o que ele promete">
+<meta property="og:description" content="Quem faz o Mochi, como o app é projetado e construído, como funcionam a versão gratuita e o desbloqueio único, o que ele guarda e exatamente onde a IA entra.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://open.cait518.cc/mochitodo-support/story.pt-BR.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Mochi: Lista fofa", "alternateName": "Mochi To-Do", "operatingSystem": "iOS 17.0 or later, watchOS 10.0 or later", "applicationCategory": "ProductivityApplication", "url": "https://apps.apple.com/app/id6785004775", "downloadUrl": "https://apps.apple.com/app/id6785004775?pt=118326163&ct=sup_mochitodo_story&mt=8", "inLanguage": "pt-BR", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AboutPage", "name": "Sobre o Mochi: como o app de lista de tarefas fofa é feito e o que ele promete", "url": "https://open.cait518.cc/mochitodo-support/story.pt-BR.html", "inLanguage": "pt-BR", "dateModified": "2026-10-04", "about": {"@type": "SoftwareApplication", "name": "Mochi: Lista fofa"}}</script>
+<style>
+  :root { --ink:#4E2E26; --soft:#9A8378; --accent:#0E9D64; --card:#FFFDF9; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink); line-height:1.6;
+    background:linear-gradient(160deg,#FF9E7B 0%,#FFC79C 45%,#FFE9C9 100%);
+    background-attachment:fixed; padding:0 20px 80px;
+  }
+  .wrap { max-width:680px; margin:0 auto; }
+  header { text-align:center; padding:64px 0 28px; }
+  header img { width:104px; height:104px; border-radius:24px;
+    box-shadow:0 12px 30px rgba(120,60,40,.28); }
+  h1 { font-size:2rem; margin:18px 0 4px; }
+  .tag { color:var(--ink); opacity:.75; font-size:1.05rem; margin:0; }
+  .card { background:var(--card); border-radius:22px; padding:26px 28px; margin:18px 0;
+    box-shadow:0 10px 28px rgba(120,60,40,.12); }
+  h2 { font-size:1.2rem; margin:4px 0 12px; }
+  details { border-top:1px solid #F0E5DA; padding:12px 0; }
+  details:first-of-type { border-top:none; }
+  summary { font-weight:600; cursor:pointer; list-style:none; }
+  summary::-webkit-details-marker { display:none; }
+  summary::before { content:"＋"; color:var(--accent); font-weight:700; margin-right:10px; }
+  details[open] summary::before { content:"－"; }
+  details p { margin:10px 0 2px; color:#5d473f; }
+  a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .contact { text-align:center; font-size:1.05rem; }
+  footer { text-align:center; color:var(--ink); opacity:.7; font-size:.9rem; margin-top:26px; }
+  ul { padding-left:1.1rem; } li { margin:4px 0; }
+</style>
+<style>
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 20px 64px;line-height:1.75}
+.helpdoc h1{font-size:clamp(26px,4.4vw,38px);line-height:1.25;margin:.2em 0 .35em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.2em 0 .6em;scroll-margin-top:20px}
+.helpdoc h3{font-size:16.5px;margin:1.6em 0 .35em}
+.helpdoc .lede{font-size:17.5px;opacity:.85;margin:0 0 1.6em}
+.helpdoc ul{padding-left:1.15em}
+.helpdoc li{margin:.35em 0}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 22px;opacity:.8}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:6px 12px;border:1px solid currentColor;border-radius:999px;font-size:13.5px;opacity:.75;text-decoration:none}
+.helpdoc .hd-specs{width:100%;border-collapse:collapse;margin:.6em 0;font-size:15px}
+.helpdoc .hd-specs th{text-align:left;font-weight:600;padding:9px 12px 9px 0;white-space:nowrap;vertical-align:top;opacity:.7}
+.helpdoc .hd-specs td{padding:9px 0;border-bottom:1px solid rgba(128,128,128,.18)}
+.helpdoc .hd-q{margin:1.5em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-cta{display:inline-block;margin:10px 8px 10px 0;padding:11px 20px;border-radius:999px;border:1px solid currentColor;font-weight:600;text-decoration:none}
+.helpdoc .hd-note{font-size:13px;opacity:.62;margin-top:2.6em;border-top:1px solid rgba(128,128,128,.2);padding-top:14px}
+@media (max-width:520px){.helpdoc .hd-specs th{display:block;padding-bottom:0}.helpdoc .hd-specs td{display:block;padding-top:2px}}
+</style>
+<meta name="apple-itunes-app" content="app-id=6785004775">
+</head>
+<body>
+<main class="helpdoc">
+<p class="hd-nav"><a href="./">Início do suporte</a><a href="help.pt-BR.html">Ajuda e FAQ</a><a href="checklist.pt-BR.html">Guia de uso</a><a href="widgets.pt-BR.html">Widgets</a><a href="story.pt-BR.html">Sobre o Mochi</a><a href="privacy.html">Política de privacidade</a><a href="https://apps.apple.com/app/id6785004775?pt=118326163&amp;ct=sup_mochitodo_story&amp;mt=8" rel="noopener">Ver na App Store</a></p>
+<h1>Sobre o Mochi: quem faz, como é feito e o que promete</h1>
+<p class="lede">O Mochi é uma lista de tarefas feita para dar gosto de usar: toque num círculo e a tarefa fica marcada. Esta página explica quem está por trás, como o app é construído e exatamente onde a IA entra.</p>
+<section id="what"><h2>O que é o Mochi</h2><p>O Mochi é uma lista de tarefas fofa para iPhone, iPad e Apple Watch. Você adiciona tarefas, toca no círculo ao terminar, cria lembretes, separa tudo em listas e dá a cada lista o seu próprio tema. Requer iOS 17 ou posterior. O passo a passo está no <a href="checklist.pt-BR.html">guia de uso</a>.</p></section>
+<section id="who"><h2>Quem faz</h2><p>O Mochi é feito e mantido pela pequena equipe independente por trás do Lumi Studio, que publica um conjunto de apps para iPhone (os outros aparecem no fim da página inicial do suporte). O nome do desenvolvedor exibido na App Store é Guan Feng Lai. É um projeto pequeno e independente, e os e-mails de suporte chegam direto à equipe.</p></section>
+<section id="promise"><h2>O que prometemos</h2><ul><li>Grátis para começar. A versão gratuita tem limites claros: 2 listas, até 4 tarefas por lista, 5 temas e 1 conjunto de emojis.</li><li>Uma compra única e opcional libera o restante. Não há assinatura.</li><li>Sem conta, sem anúncios e sem rastreamento. Suas listas ficam no seu aparelho.</li><li>Os lembretes são agendados no próprio aparelho e funcionam sem internet.</li></ul></section>
+<section id="look"><h2>Como o visual é feito</h2><p>Os 101 temas do app são gerados por código nosso, a partir de gradientes, texturas de papel e formas simples. O ícone do app é uma ilustração gerada por IA. As capturas de tela da App Store mostram telas reais do app, com uma legenda curta.</p></section>
+<section id="ai"><h2>Onde a IA entra</h2><p>Os textos deste site, incluindo estes guias, são redigidos com ajuda de IA e conferidos com o app antes de irem ao ar. As traduções do app para vários idiomas foram feitas com ferramentas de tradução por IA. Se alguma frase soar estranha no seu idioma, avise e nós corrigimos. O app em si não tem recursos de IA nem chatbot.</p></section>
+<section id="contact"><h2>Contato e sugestões</h2><p>Dúvidas, relatos de problemas e ideias são bem-vindos em <!--email_off--><a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a><!--/email_off-->. Costumamos responder em 1 a 2 dias úteis.</p></section>
+<p style="margin-top:2em"><a class="hd-cta" href="https://apps.apple.com/app/id6785004775?pt=118326163&amp;ct=sup_mochitodo_story&amp;mt=8" rel="noopener">Mochi — Ver na App Store</a></p>
+<p class="hd-a">Prefere procurar? Abra a App Store e busque “Mochi lista de tarefas”.</p>
+<p class="hd-note">Esta página foi redigida com ajuda de IA e conferida com o app. Última atualização: 2026-10-04</p>
+</main>
+<footer></footer>
+</body>
+</html>

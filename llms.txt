@@ -9,6 +9,9 @@
 
 ## Support
 
+- [Usage guide: tasks, reminders, lists and themes](https://open.cait518.cc/mochitodo-support/checklist.html)
+- [Widget setup: Home Screen, Lock Screen and Apple Watch](https://open.cait518.cc/mochitodo-support/widgets.html)
+- [About Mochi: who makes it, how it is made and where AI is used](https://open.cait518.cc/mochitodo-support/story.html)
 - [Help, FAQ and troubleshooting](https://open.cait518.cc/mochitodo-support/help.html)
 - [Official support site](https://open.cait518.cc/mochitodo-support/)
 - [Privacy policy](https://open.cait518.cc/mochitodo-support/privacy.html)
