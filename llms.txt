@@ -13,6 +13,9 @@
 - [Widget setup: Home Screen, Lock Screen and Apple Watch](https://open.cait518.cc/mochitodo-support/widgets.html)
 - [About Mochi: who makes it, how it is made and where AI is used](https://open.cait518.cc/mochitodo-support/story.html)
 - [Help, FAQ and troubleshooting](https://open.cait518.cc/mochitodo-support/help.html)
+- [Mochi Q&A in Japanese: what it is, who it fits, how Premium works, what sets it apart](https://open.cait518.cc/mochitodo-support/mochi-download-mae-qa.ja.html)
+- [Mochi Q&A in Brazilian Portuguese: what it is, who it fits, how Premium works, what sets it apart](https://open.cait518.cc/mochitodo-support/mochi-gratis-ou-premium.pt-BR.html)
+- [Mochi Q&A in Arabic: what it is, who it fits, how Premium works, what sets it apart](https://open.cait518.cc/mochitodo-support/tatbiq-qaimat-almahaam-bilarabi.ar-SA.html)
 - [Official support site](https://open.cait518.cc/mochitodo-support/)
 - [Privacy policy](https://open.cait518.cc/mochitodo-support/privacy.html)
 
