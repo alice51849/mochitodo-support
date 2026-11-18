@@ -10,7 +10,7 @@
 ## Support
 
 - [Usage guide: tasks, reminders, lists and themes](https://open.cait518.cc/mochitodo-support/checklist.html)
-- [Widget setup: Home Screen, Lock Screen and Apple Watch](https://open.cait518.cc/mochitodo-support/widgets.html)
+- [Widget setup: Home Screen and Apple Watch](https://open.cait518.cc/mochitodo-support/widgets.html)
 - [About Mochi: who makes it, how it is made and where AI is used](https://open.cait518.cc/mochitodo-support/story.html)
 - [Help, FAQ and troubleshooting](https://open.cait518.cc/mochitodo-support/help.html)
 - [Mochi free vs Premium (US English): what the free version includes, what Premium unlocks, who should upgrade](https://open.cait518.cc/mochitodo-support/mochi-free-vs-premium.html)
