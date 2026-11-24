@@ -57,6 +57,9 @@ a{color:var(--accent)}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="max-image-preview:large">
 <!-- ls-sharecard:end -->
+<!-- ls-clickbeacon:start -->
+<script>(function(){var E='https://office.cait518.cc/api/click';function h(e){try{var t=e.target,l=t&&t.closest&&t.closest('a[href]');if(!l||!navigator.sendBeacon)return;var u=new URL(l.href,location.href),s,k,c,q=u.searchParams;if(u.hostname==='apps.apple.com'){s='apple';k=(u.pathname.match(/\/id(\d+)/)||[])[1]||'';c=q.get('ct')||''}else if(u.hostname==='play.google.com'){s='play';var r=new URLSearchParams(q.get('referrer')||'');k=r.get('utm_campaign')||q.get('id')||'';c=r.get('utm_source')||''}else return;navigator.sendBeacon(E,JSON.stringify({p:location.pathname.slice(0,200),a:k.slice(0,100),ct:c.slice(0,64),s:s}))}catch(_){}}document.addEventListener('click',h,true);document.addEventListener('auxclick',h,true)})();</script>
+<!-- ls-clickbeacon:end -->
 </head>
 <body>
 <p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">This site is run by Lumi Studio, the developer of the apps featured here. The apps we recommend are our own.</p>
@@ -100,6 +103,7 @@ a{color:var(--accent)}
 <li>If the widget shows old or sample tasks, open Mochi once so it can refresh, or remove the widget and add it again.</li>
 </ol>
 <p>The App Store listing does not say which plan the widget needs, so check in the app. Mochi’s App Store listing requires iOS 17 or later.</p>
+<p><strong>Widget plus reminders.</strong> A widget works when you look at your phone; a reminder works when you don’t. Mochi’s App Store listing includes reminders, so give the one task with a real deadline a reminder and let the widget hold the rest of the list. Your todo list widget stays calm and cute instead of turning into an alarm.</p>
 <h2 id="watch">Your list on your wrist</h2>
 <p>When your phone is in a bag, the same list is on Apple Watch: the App Store listing says you can keep your list “on a Home Screen widget and Apple Watch.” <a href="widgets.html#watch">Mochi’s widget guide</a> covers adding it to a watch face.</p>
 <div class="cta">
@@ -125,7 +129,7 @@ a{color:var(--accent)}
 <p class="hd-a">The free version includes 2 lists with up to 4 tasks each, 5 themes and 1 emoji set. Premium, an in-app purchase, unlocks unlimited lists and tasks, all 101 themes and all 11 emoji sets.</p>
 <p class="hd-q">Is Mochi on Android?</p>
 <p class="hd-a">Yes. Mochi is also on Google Play; the link is on this page.</p>
-<p class="hd-note">This page was written by Mochi’s developer with AI assistance and checked against the App Store listing and Mochi’s widget guide. Last updated: 2026-11-18.</p>
+<p class="hd-note">This page was written by Mochi’s developer with AI assistance and checked against the App Store listing and Mochi’s widget guide. Last updated: 2026-11-23.</p>
 </main>
 </body>
 </html>
